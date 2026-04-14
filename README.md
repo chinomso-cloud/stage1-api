@@ -52,22 +52,26 @@ Returns user information.
   "email": "anokwuruchinomso@gmail.com",
   "github": "https://github.com/chinomso-cloud"
 }
+
 How to Run Locally
+
 npm install
 node index.js
-Server runs on:
 
+Server runs on:
 http://localhost:3000
 
 Architecture
 Client → Nginx (80/443) → Node.js App (3000)
 
 Nginx handles:
+
 Reverse proxy
 HTTPS (SSL)
 Domain routing
 
 Process Manager
+
 pm2 start index.js --name stage1-api
 pm2 save
 
