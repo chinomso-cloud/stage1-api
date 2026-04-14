@@ -29,22 +29,15 @@ Response:
 {
   "message": "API is running"
 }
-GET /health
 
+GET /health
 Returns service health status.
 
 {
   "message": "healthy"
 }
-GET /health
 
-Returns service health status.
-
-{
-  "message": "healthy"
-}
 GET /me
-
 Returns user information.
 
 {
